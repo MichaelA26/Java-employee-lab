@@ -24,4 +24,12 @@ public abstract class Employee {
         return salary;
     }
 
+    public double raiseSalary(){
+        return salary*2;
+    }
+
+    public int payBonus(){
+        return salary/100;
+    }
+
 }
