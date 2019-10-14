@@ -13,6 +13,7 @@ public class ManagerTest {
     public void before(){
         manager = new Manager("Marketing", "Nigel Bottomtooth", "N9 7Y7 4R", 40000);
     }
+
     @Test
     public void managerHasDepartment(){
         assertEquals("Marketing", manager.getDeptName());
