@@ -15,4 +15,13 @@ public class Manager extends Employee {
         return deptName;
     }
 
+    @Override
+    public double raiseSalary() {
+        return super.raiseSalary();
+    }
+
+    @Override
+    public int payBonus() {
+        return super.payBonus();
+    }
 }

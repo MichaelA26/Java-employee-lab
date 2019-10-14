@@ -29,7 +29,7 @@ public abstract class Employee {
     }
 
     public int payBonus(){
-        return salary/100;
+        return salary;
     }
 
 }
