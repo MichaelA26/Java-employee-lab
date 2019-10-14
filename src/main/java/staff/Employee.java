@@ -2,7 +2,7 @@ package staff;
 
 public abstract class Employee {
 
-    private String name;
+    public String name;
     private String NINumber;
     private int salary;
 
